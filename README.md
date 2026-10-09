@@ -12,6 +12,10 @@ Maps.
 > Todos los derechos reservados (ver [LICENSE](LICENSE)).
 
 <p align="center">
+  <img src="capturas/recorrido.gif" width="260" alt="La app en uso: mapa, buscar un plato y abrir el perfil del negocio">
+</p>
+
+<p align="center">
   <img src="capturas/mapa-celular.png" width="230" alt="Mapa con los negocios cercanos">
   <img src="capturas/perfil-celular.png" width="230" alt="Perfil de un negocio con su carta">
   <img src="capturas/buscador-celular.png" width="230" alt="Buscador con platos primero">
@@ -153,6 +157,30 @@ build del frontend y, en cada PR a integración, la suite de navegador.
   leer el código se registra como "sin verificar" hasta comprobarlo con la
   app corriendo o con una prueba.
 
+## Cómo trabajo
+
+- **Desarrollo guiado por especificaciones, con IA.** Cada funcionalidad
+  empieza como una spec en español (qué problema resuelve, para quién, qué
+  queda fuera) que apruebo antes de escribir código. La implementación la hago
+  con un asistente de IA (Claude Code) que trabaja sobre esa spec y sobre unas
+  reglas fijas del proyecto: seguridad, privacidad, pruebas y cómo registrar
+  cada decisión. Antes de construir, se verifica qué ya existe en el código
+  (existe / parcial / falta) para no rehacer lo que ya está.
+- **Decisiones con su porqué.** Toda decisión técnica o de producto queda
+  escrita en un historial por tema, con la razón y las alternativas que se
+  descartaron; lo que solo se dedujo leyendo el código se marca como
+  "hipótesis sin verificar" hasta probarlo.
+- **Pruebas en cada cambio.** Unitarias e integración contra la base real (sin
+  simularla), pruebas de navegador para cada pantalla y la regla de no dar
+  nada por terminado solo porque responde bien en el caso feliz. El CI corre
+  todo en cada PR y nada se fusiona en rojo.
+- **Prueba manual en PC y en un celular real.** Antes de fusionar un cambio de
+  comportamiento lo pruebo yo mismo en el computador y en un Android de gama
+  media, con una guía corta de pasos y resultados esperados. Lo que sale de
+  esa prueba vuelve como una spec de ajustes.
+- **Ramas cortas y PR pequeños**, con Conventional Commits, `develop` como
+  integración y `main` siempre desplegable.
+
 ## Estado
 
 En desarrollo activo, con piloto previsto en Ciudad Verde. Las capturas
@@ -169,6 +197,13 @@ de Nelson Fernando Sotelo Castro;
 [Arepa de queso](https://commons.wikimedia.org/wiki/File:Arepa_de_queso_by_jslander.png),
 de Jess Lander. Mapas © colaboradores de
 [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL).
+
+## Contacto
+
+<!-- Completa tus datos aquí -->
+- Correo: _(por completar)_
+- LinkedIn: _(por completar)_
+- Ciudad: _(por completar)_
 
 ---
 
