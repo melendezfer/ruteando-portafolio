@@ -7,7 +7,7 @@ registra sin registro mercantil; el cliente lo encuentra en un mapa, ve si
 está vendiendo **ahora mismo** y le escribe por WhatsApp o llega con Google
 Maps.
 
-> Este repositorio es una **vitrina**: muestra qué es el proyecto, cómo está
+> Este repositorio es una **vitrina**: muestra qué es RUTEANDO, cómo está
 > construido y por qué. El código fuente vive en un repositorio privado.
 > Todos los derechos reservados (ver [LICENSE](LICENSE)).
 
@@ -183,8 +183,8 @@ build del frontend y, en cada PR a integración, la suite de navegador.
 
 ## Estado
 
-En desarrollo activo, con piloto previsto en Ciudad Verde. Las capturas
-usan datos de demostración ficticios.
+RUTEANDO es una empresa en construcción, con un piloto comercial previsto
+en Ciudad Verde. Las capturas usan datos de demostración ficticios.
 
 ## Créditos de las capturas
 
